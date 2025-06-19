@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(106, 245, 255);
+}
+body{
+    background: linear-gradient(45deg,rgb(44, 1, 1),rgb(3, 36, 7));
+}
+.game{
+    width: 40vw;
+    height: 70vh;
+    border: 2px dotted rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 15px 10px rgb(82, 82, 82) ;
+}
+.box{
+    height: 33%;
+    width: 33.04%;
+    border: 1px double rgb(255, 255, 255);
+    color: rgb(106, 245, 255);
+    text-align: center;
+    font-size: 150px;
+    cursor: pointer;
+    background: transparent;
+    user-select: none;
+}
+.a{
+    width: 97.4vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.player{
+    width: 200px;
+    height: 200px;
+    border: 2px dotted white;
+    box-shadow: 0px 0px 15px 10px rgb(82, 82, 82) ;
+    margin-top: 130px;
+}
+#playerIcon{
+    font-size: 100px;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+#playerIcon2{
+    font-size: 100px;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: black;
+
+}
+h2{
+    text-align: center;
+}
+.winner
+{
+    font-size: 50px;
+    display: none;
+    text-align: center;  
+}
+#heading{
+    font-size: 80px;
+    text-align: center;
+}
+#btn{
+    width: 200px;
+    height:50px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 160px;
+    font-size: 17px;
+}
+#btn:active{
+    transform: scale(0.9);
+    background-color: rgb(26, 25, 25);
+}
+#check{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    background-image: url("logo.png");
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.top{
+    display: flex;
+    text-align: center;
+
+}
